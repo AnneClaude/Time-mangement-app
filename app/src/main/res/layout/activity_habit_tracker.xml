@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/backgroundcolor"
+    tools:context=".HabitTrackerActivity">
+
+    <TextView
+        android:id="@+id/Progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:fontFamily="serif"
+        android:text="Progress"
+        android:textColor="#032152"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+
+        />
+
+    <EditText
+        android:id="@+id/habbit"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+
+        android:ems="10"
+        android:fontFamily="serif"
+        android:hint="Enter your Habbit"
+        android:layout_gravity="center"
+
+        android:inputType="text"
+        android:padding="9dp"
+        android:textColorHint="#032152"
+        android:textColorLink="#988DF7"
+        android:textSize="30sp" />
+
+
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="35dp">
+
+    <TextView
+        android:id="@+id/longestStrak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="serif"
+        android:orientation="horizontal"
+        android:text="This Strak"
+        android:textColor="#032152"
+        android:textSize="20sp"
+        android:layout_marginStart="25dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/thisStreak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="serif"
+        android:orientation="horizontal"
+        android:text="Longest Strak"
+        android:textColor="#032152"
+        android:textSize="20sp"
+        android:layout_marginStart="130dp"
+
+/>
+
+</LinearLayout>
+    <Button
+        android:id="@+id/edithabbit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Habbit"
+        android:backgroundTint="#E4B9AF"
+        android:fontFamily="serif"
+        android:textSize="20dp"
+
+        />
+
+</LinearLayout>

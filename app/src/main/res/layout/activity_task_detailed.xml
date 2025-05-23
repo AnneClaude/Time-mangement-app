@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/backgroundcolor"
+
+    tools:context=".TaskDetailedActivity">
+
+
+    <TextView
+        android:id="@+id/taskname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:textColor="#032152"
+        android:text="Exam Studying"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        app:srcCompat="@drawable/checklist_navyblue"
+        android:layout_marginBottom="80dp"/>
+
+    <TextView
+        android:textColor="#032152"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:layout_marginBottom="5dp"
+        android:text="description:"
+        android:layout_marginRight="125dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/description"
+        android:textColor="#032152"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:layout_marginBottom="5dp"
+        android:text="data structure exam - Sunday"
+        android:textSize="23dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="9dp"
+        />
+
+    <TextView
+        android:textColor="#032152"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="needed time:"
+        android:layout_marginRight="120dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/neededtime"
+        android:textColor="#032152"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:layout_marginBottom="5dp"
+        android:text="5-6 hours"
+        android:textSize="23dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="9dp"
+        />
+
+    <TextView
+        android:id="@+id/daadline"
+        android:textColor="#032152"
+        android:layout_marginBottom="5dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="deadline:"
+        android:layout_marginRight="140dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/deadlinedate"
+        android:textColor="#032152"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:layout_marginBottom="100dp"
+        android:text="30/10/24"
+        android:textSize="23dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="9dp"
+        />
+
+
+
+
+</LinearLayout>

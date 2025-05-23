@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="left"
+    android:background="@drawable/backgroundcolor"
+
+    tools:context=".ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/profilePic"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/custom_round_frame"
+        android:scaleType="centerCrop"
+        android:src="@drawable/usericon" />
+    <TextView
+        android:id="@+id/Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username:"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:fontFamily="serif"
+        android:textColor="#032152"
+        android:layout_marginLeft="7dp"
+        />
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textSize="27dp"
+        android:fontFamily="serif"
+        android:textColor="#032152"
+        android:layout_marginLeft="7dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/EmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email Address:"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:fontFamily="serif"
+        android:textColor="#032152"
+        android:layout_marginLeft="7dp"
+
+        />
+    <TextView
+        android:id="@+id/text_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="27dp"
+        android:fontFamily="serif"
+        android:textColor="#032152"
+        android:layout_marginLeft="7dp"
+
+
+        />
+
+
+    <TextView
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:fontFamily="serif"
+        android:textColor="#032152"
+        android:layout_marginLeft="7dp"
+
+        />
+
+    <TextView
+        android:id="@+id/text_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="27dp"
+        android:fontFamily="serif"
+        android:layout_marginLeft="7dp"
+
+        android:textColor="#032152"
+        />
+
+
+
+</LinearLayout>

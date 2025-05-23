@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundcolor"
+    android:orientation="vertical"
+
+
+    tools:context=".MoodFragment">
+
+    <TextView
+        android:id="@+id/howareyou"
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/aladin"
+        android:includeFontPadding="false"
+        android:text="HOW ARE YOU"
+        android:textColor="#2A3CE3"
+        android:textSize="65dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/feeling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/anton"
+        android:includeFontPadding="false"
+        android:text="FEELING?"
+        android:textColor="#FFBFBC"
+        android:textSize="43dp"
+        android:layout_marginBottom="45dp"
+ />
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="335dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center"
+        android:src="@drawable/moodemojies" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text=" " />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text=" " />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text=" " />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text=" " />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text=" " />
+
+        />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/moodPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="224dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/nobackgroundmood" />
+
+
+</LinearLayout>

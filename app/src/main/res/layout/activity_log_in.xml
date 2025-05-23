@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background123"
+    tools:context=".LogInActivity">
+
+    <TextView
+        android:id="@+id/WelcomeBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:textColor="#032152"
+        android:text="Welcome Back!"
+        android:layout_marginTop="20dp"
+        android:textSize="46dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/credential"
+        android:textColor="#032152"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Enter your credential to login"
+        android:layout_marginBottom="15dp"
+
+        android:textSize="18dp"
+        android:textStyle="bold"
+        />
+
+
+    <EditText
+        android:id="@+id/EmailAddress"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:ems="10"
+        android:background="@drawable/custom_edittext"
+        android:drawableLeft="@drawable/emailicon"
+        android:fontFamily="serif"
+
+        android:hint="E-mail"
+        android:textColorHint="#032152"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp"
+        android:drawablePadding="2dp"
+        android:padding="9dp"/>
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:ems="10"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif"
+        android:textColorHint="#032152"
+        android:hint="Password"
+        android:background="@drawable/custom_edittext"
+        android:drawableStart="@drawable/passwordicon"
+        android:drawablePadding="2dp"
+        android:inputType="textPassword"
+        android:padding="9dp" />
+    <!--android:drawableEnd="@drawable/baseline_remove_red_eye_24"-->
+
+
+    <Button
+        android:id="@+id/forgotPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00EDE8E8"
+        android:fontFamily="serif"
+        android:insetRight="220dp"
+        android:text="Forgot Password?"
+        android:textColor="#032152"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/LogInButton"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="     Log in     "
+        android:backgroundTint="#E4B9AF"
+        android:textSize="19dp"
+        android:fontFamily="serif"
+        />
+
+    <Button
+        android:id="@+id/dontHaveAccButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:text="Don`t have an account? Sign Up"
+        android:textColor="#032152"
+        android:textStyle="bold"
+        android:backgroundTint="#00EDE8E8"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

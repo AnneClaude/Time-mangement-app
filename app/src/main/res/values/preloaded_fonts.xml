@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abhaya_libre_medium</item>
+        <item>@font/adlam_display</item>
+        <item>@font/agbalumo</item>
+        <item>@font/akaya_kanadaka</item>
+        <item>@font/aladin</item>
+        <item>@font/alfa_slab_one</item>
+        <item>@font/alumni_sans_collegiate_one</item>
+        <item>@font/anton</item>
+        <item>@font/aref_ruqaa_ink_bold</item>
+    </array>
+</resources>

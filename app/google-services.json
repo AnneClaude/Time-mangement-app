@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "324577000332",
+    "firebase_url": "https://timewiseclaude-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "timewiseclaude",
+    "storage_bucket": "timewiseclaude.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324577000332:android:5afb7f805f7f14420f34a9",
+        "android_client_info": {
+          "package_name": "com.example.timewise"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC0L8HnUS2Qn5zL2CBfW92lHLRySsDEn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

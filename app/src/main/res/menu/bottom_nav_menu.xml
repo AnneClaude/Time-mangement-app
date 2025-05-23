@@ -1,0 +1,48 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Home"
+        android:icon="@drawable/home"
+        />
+
+    <item
+        android:id="@+id/habitTracker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Habit Tracker"
+        android:icon="@drawable/baseline_checklist_24"
+
+        />
+    <item
+    android:id="@+id/timer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:title="Timer"
+    android:icon="@drawable/timer"
+
+    />
+    <item
+        android:id="@+id/mood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Mood"
+        android:icon="@drawable/baseline_tag_faces_24"
+        />
+
+
+
+    <item
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Profile"
+        android:icon="@drawable/baseline_person_24"
+        />
+
+
+
+
+</menu>

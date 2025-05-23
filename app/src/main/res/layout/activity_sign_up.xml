@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background123"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:id="@+id/SignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:layout_marginBottom="10dp"
+        android:textColor="#032152"
+        android:text="Sign up"
+        android:textSize="55dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#032152"
+        android:fontFamily="serif"
+        android:text="Create your account"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:background="@drawable/custom_edittext"
+        android:drawableLeft="@drawable/usericon"
+        android:drawablePadding="2dp"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:hint="Username"
+        android:inputType="text"
+        android:padding="9dp"
+        android:textColorHint="#032152"
+        android:textColorLink="#988DF7"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/EmailAddress"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:ems="10"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:textColorHint="#032152"
+        android:hint="E-mail"
+        android:background="@drawable/custom_edittext"
+        android:drawableStart="@drawable/emailicon"
+        android:inputType="textEmailAddress"
+        android:drawablePadding="2dp"
+        android:padding="9dp" />
+
+    <!-- EditText for Password with Eye Icon inside -->
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:ems="10"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:textColorHint="#032152"
+        android:hint="Password"
+        android:background="@drawable/custom_edittext"
+        android:drawableStart="@drawable/passwordicon"
+        android:drawablePadding="2dp"
+        android:inputType="textPassword"
+        android:padding="9dp"
+        />
+      <!--android:drawableEnd="@drawable/baseline_remove_red_eye_24"-->
+
+
+
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Sign up   "
+        android:backgroundTint="#E4B9AF"
+        android:textSize="19dp"
+        android:layout_margin="7dp"
+        android:fontFamily="serif" />
+
+    <Button
+        android:id="@+id/HaveAccountBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? press to Login"
+        android:textSize="17dp"
+        android:backgroundTint="#00EDE8E8"
+        android:textColor="#032152"
+        android:fontFamily="serif"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundcolor"
+    tools:context=".HomeFragment">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/Today"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Today."
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:fontFamily="serif"
+        android:textColor="#032152"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/getDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#032152"
+        android:layout_marginLeft="7dp"
+        />
+
+    <TextView
+        android:id="@+id/ToDoList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ToDo:"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:fontFamily="serif"
+        android:textColor="#032152"
+        android:layout_marginLeft="7dp"
+
+        />
+
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginTop="12dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"
+        android:scrollbars="vertical"
+        android:scrollbarSize="10dp"
+        tools:listitem="@layout/list_item" />
+
+    <TextView
+        android:id="@+id/Done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Done!"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:fontFamily="serif"
+        android:textColor="#032152"
+        android:layout_marginLeft="7dp"
+
+        />
+    <ListView
+        android:id="@+id/listviewDone"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="12dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"
+        android:scrollbars="vertical"
+        android:scrollbarSize="10dp"
+        tools:listitem="@layout/list_item" />
+
+
+    <ImageButton
+        android:id="@+id/AddNewTask"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#00FFFFFF"
+        android:padding="0dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/baseline_add_circle_24"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="150dp"
+        android:adjustViewBounds="true" />
+
+
+</LinearLayout>

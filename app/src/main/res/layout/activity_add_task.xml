@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="left"
+    android:background="@drawable/backgroundcolor"
+
+    tools:context=".TaskDetailedActivity">
+
+
+    <EditText
+        android:id="@+id/taskname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:textColor="#032151"
+        android:hint="New Task"
+        android:textSize="44dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/bookicon"
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        app:srcCompat="@drawable/checklist_navyblue"
+        />
+    <TextView
+        android:textColor="#032152"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:layout_marginBottom="10dp"
+        android:text="*the icon will change after clicking add:"
+        android:textSize="17dp"
+        android:layout_marginLeft="7dp"
+
+        />
+
+    <TextView
+        android:textColor="#032152"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:layout_marginBottom="5dp"
+        android:text="description:"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="7dp"
+
+        />
+
+    <EditText
+        android:id="@+id/description"
+        android:textColor="#032152"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:layout_marginBottom="5dp"
+        android:hint="Describe your task"
+        android:textSize="23dp"
+        android:layout_marginLeft="7dp"
+
+        />
+
+    <TextView
+        android:textColor="#032152"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="needed time:"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="7dp"
+
+        />
+    <EditText
+        android:id="@+id/neededtime"
+        android:textColor="#032152"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:layout_marginBottom="5dp"
+        android:hint="Enter the needed time to complete your task"
+        android:textSize="23dp"
+        android:layout_marginLeft="7dp"
+
+        />
+
+    <TextView
+        android:id="@+id/daadline"
+        android:textColor="#032152"
+        android:layout_marginBottom="5dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="deadline:"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="7dp"
+
+        />
+
+    <EditText
+        android:id="@+id/deadlinedate"
+        android:textColor="#032152"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:layout_marginBottom="80dp"
+        android:hint="The deadline of your task"
+        android:textSize="23dp"
+        android:layout_marginLeft="7dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/AddTaskButton"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="   Add   "
+        android:backgroundTint="@color/navyblue"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>
