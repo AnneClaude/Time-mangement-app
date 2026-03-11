@@ -1,14 +1,14 @@
-# ⏳ Time Management App
+#  Time Management App
 
 A comprehensive Android application built to help students organize their lives more effectively. This app goes beyond basic task management by integrating scheduling, focus tools, and well-being tracking into a single, cohesive platform.
 
 ##  Key Features
 
-* ** Advanced To-Do List:** Create, manage, and prioritize daily tasks.
-* ** Focus Timer:** Built-in productivity timer to help maintain focus during study sessions.
-* ** Integrated Calendar:** Visual schedule management to keep track of upcoming deadlines and events.
-* ** Mood Tracker:** Daily emotional logging to help understand the correlation between workload, productivity, and mental well-being.
-* ** Cloud Sync:** Secure backend integration to keep user data synced and safe.
+* **Advanced To-Do List:** Create, manage, and prioritize daily tasks.
+* **Focus Timer:** Built-in productivity timer to help maintain focus during study sessions.
+* **Integrated Calendar:** Visual schedule management to keep track of upcoming deadlines and events.
+* **Mood Tracker:** Daily emotional logging to help understand the correlation between workload, productivity, and mental well-being.
+* **Cloud Sync:** Secure backend integration to keep user data synced and safe.
 
 ## Tech Stack
 
